@@ -19,4 +19,4 @@ License URI: LICENSE
 function perfect_image_quality() {
 	return 100;
 }
-add_action( 'jpeg_quality', 'perfect_image_quality' );
+add_filter( 'jpeg_quality', 'perfect_image_quality' );
